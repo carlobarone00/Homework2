@@ -10,7 +10,11 @@ rosdep install -i --from-path src --rosdistro humble -y
 Build your new package
 ```
 colcon build --packages-select ros2_kdl_package
+...
 ```
+ros2 launch iiwa_bringup iiwa.launch.py command_interface:="velocity" robot_controller:="velocity_controller" use_sim:="true"
+...
+
 Source the setup files
 ```
 . install/setup.bash
