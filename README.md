@@ -11,8 +11,9 @@ Build your new package
 ```
 colcon build --packages-select ros2_kdl_package
 ...
+
 ```
-ros2 launch iiwa_bringup iiwa.launch.py command_interface:="velocity" robot_controller:="velocity_controller" use_sim:="true"
+export IGN_GAZEBO_RESOURCE_PATH=$IGN_GAZEBO_RESOURCE_PATH:/home/user/ros2_ws/src/Homework2/ros2_iiwa/iiwa_description/gazebo/models
 ...
 
 Source the setup files
