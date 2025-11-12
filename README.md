@@ -11,10 +11,10 @@ Build your new package
 ```
 colcon build --packages-select ros2_kdl_package
 
-
+Now export
 ```
 export IGN_GAZEBO_RESOURCE_PATH=$IGN_GAZEBO_RESOURCE_PATH:/home/user/ros2_ws/src/Homework2/ros2_iiwa/iiwa_description/gazebo/models
-...
+
 
 Source the setup files
 ```
