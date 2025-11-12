@@ -1,5 +1,3 @@
-# ros2_kdl_package
-
 ## :package: About
 
 This package contains the code to create and run the HOMEWORK2 of RoboticLab_2025
